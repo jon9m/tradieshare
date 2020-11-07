@@ -1,0 +1,52 @@
+.navbar {
+  display: block;
+  margin-top: 60px;
+}
+
+.nav {
+  text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 5px 50px;
+  border: 1px solid #eee;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.nav li::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-top: solid 5px #445092;
+  border-left: solid 5px transparent;
+  border-right: solid 5px transparent;
+}
+
+.nav li {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .nav li {
+    padding: 5px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav li {
+    padding: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .nav li {
+    padding: 3px 3px;
+  }
+}
