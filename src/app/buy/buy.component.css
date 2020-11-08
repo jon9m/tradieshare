@@ -1,0 +1,36 @@
+.input-item div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .input-item p {
+    margin-right: 20px;
+  }
+  
+  .input-item div.sub {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-item .section {
+    border: 1px solid #0b0b1954;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .input-item input,
+  .input-item textarea,
+  .input-item select {
+    border-radius: 5px;
+    border: solid #272a3e6e 1px;
+    min-width: 150px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .input-item div {
+      flex-direction: column;
+    }
+  }
+  

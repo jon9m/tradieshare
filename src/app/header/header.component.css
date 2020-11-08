@@ -1,12 +1,19 @@
 .navbar {
   display: block;
-  margin-top: 60px;
+  top: 60px;
+  left: 0;
+  background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .nav {
+  display: flex;
+  justify-content: center;
   text-align: center;
   list-style-type: none;
   overflow: hidden;
+  margin-top: 0px;
   padding: 0;
 }
 
@@ -37,12 +44,6 @@
 @media screen and (max-width: 767px) {
   .nav li {
     padding: 5px 20px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .nav li {
-    padding: 5px 5px;
   }
 }
 

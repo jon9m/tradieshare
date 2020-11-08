@@ -1,1 +1,88 @@
-<p>search works!</p>
+<div>
+    <div class="card">
+        <div>
+            <p><strong>Search Listings</strong></p>
+        </div>
+    </div>
+    <div class="card">
+        <form>
+            <div class="input-item">
+                <div class="search">
+                    <input class="searchText" type="text" placeholder="Search">
+                    <div class="github-star-badge searchBtn">Search</div>
+                </div>
+                <div>
+                    <p><strong>Filter By</strong></p>
+                </div>
+                <div class="search-options">
+                    <div>
+                        <div class="search-col">
+                            <div>
+                                <input type="checkbox">
+                                <p>Share</p>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <p>Buy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="search-col">
+                            <input type="checkbox">
+                            <p>Location</p>
+                        </div>
+                        <div class="search-col">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="search-col">
+                            <input type="checkbox">
+                            <p>Catagory</p>
+                        </div>
+                        <div class="search-col">
+                            <select>
+                                <option>Flooring</option>
+                                <option>Roofing</option>
+                                <option>Insulation</option>
+                                <option>Bathroom</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="search-col">
+                            <input type="checkbox">
+                            <p>Price</p>
+                        </div>
+                        <div class="search-col">
+                            <div style="display: flex; justify-content: flex-end;">
+                                <input class="small-textbox" type="text" placeholder="min">
+                                <input class="small-textbox" type="text" placeholder="max">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="search-col">
+                            <input type="checkbox">
+                            <p>Item Quality</p>
+                        </div>
+                        <div class="search-col">
+                            <select>
+                                <option>New</option>
+                                <option>Good</option>
+                                <option>Used</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div>
+        Search Results
+    </div>
+    <div class="card">
+        <app-item></app-item>
+    </div>
+</div>

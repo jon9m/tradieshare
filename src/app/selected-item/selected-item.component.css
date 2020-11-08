@@ -1,0 +1,33 @@
+.selected div ul {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.selected ul li {
+  list-style: none;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.btn-right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-right div {
+  width: 8px;
+  height: 15px;
+  margin: 0px;
+}
+
+.btn-right a {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 700px) {
+}

@@ -4,6 +4,7 @@ import { BuyComponent } from './buy/buy.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SearchComponent } from './search/search.component';
+import { SelectedItemComponent } from './selected-item/selected-item.component';
 import { ShareComponent } from './share/share.component';
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'share', component: ShareComponent },
   { path: 'buy', component: BuyComponent },
   { path: 'search', component: SearchComponent },
+  { path: 'selected-item', component: SelectedItemComponent },
   { path: 'profile', component: ProfileComponent }
 ];
 

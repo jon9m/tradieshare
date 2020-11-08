@@ -10,7 +10,8 @@ import { ShareComponent } from './share/share.component';
 import { BuyComponent } from './buy/buy.component';
 import { SearchComponent } from './search/search.component';
 import { ProfileComponent } from './profile/profile.component';
-
+import { ItemComponent } from './item/item.component';
+import { SelectedItemComponent } from './selected-item/selected-item.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,9 @@ import { ProfileComponent } from './profile/profile.component';
     ShareComponent,
     BuyComponent,
     SearchComponent,
-    ProfileComponent
+    ProfileComponent,
+    ItemComponent,
+    SelectedItemComponent
   ],
   imports: [
     BrowserModule,
