@@ -12,6 +12,7 @@ import { SearchComponent } from './search/search.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ItemComponent } from './item/item.component';
 import { SelectedItemComponent } from './selected-item/selected-item.component';
+import { CreateAccountComponent } from './create-account/create-account.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { SelectedItemComponent } from './selected-item/selected-item.component';
     SearchComponent,
     ProfileComponent,
     ItemComponent,
-    SelectedItemComponent
+    SelectedItemComponent,
+    CreateAccountComponent
   ],
   imports: [
     BrowserModule,
