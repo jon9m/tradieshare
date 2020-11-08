@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemComponent implements OnInit {
 
+  bricksImagePath = "/tradeshare/assets/img/bricks.png"
+  sandImagePath = "/tradeshare/assets/img/sand.png"
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
