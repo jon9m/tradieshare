@@ -12,4 +12,17 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onMenuItemClick(event) {
+    var el = document.querySelector('.navli');
+    if (el) {
+      el.classList.remove("navli")
+    }
+
+    if (event.currentTarget.classList.contains("active")) {
+      event.currentTarget.classList.add("navli");
+    } else {
+      event.currentTarget.classList.remove("navli");
+    }
+  }
+
 }

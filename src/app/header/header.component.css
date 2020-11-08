@@ -34,7 +34,7 @@
   display: none;
 }
 
-.nav li::after {
+.navli::after {
   content: "";
   position: absolute;
   top: 100%;

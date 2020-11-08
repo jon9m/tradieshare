@@ -1,11 +1,11 @@
 <nav class="navbar">
     <div>
         <ul class="nav">            
-            <li routerLinkActive="active"><a routerLink="/home"><div>Home</div></a></li>
-            <li routerLinkActive="active"><a routerLink="/share"><div>Share</div></a></li>
-            <li routerLinkActive="active"><a routerLink="/buy"><div>Buy</div></a></li>
-            <li routerLinkActive="active"><a routerLink="/search"><div>Search</div></a></li>
-            <li routerLinkActive="active"><a routerLink="/create-account"><div>Profile</div></a></li>
+            <li routerLinkActive="active" (click)="onMenuItemClick($event)"><a routerLink="/home"><div>Home</div></a></li>
+            <li routerLinkActive="active" (click)="onMenuItemClick($event)"><a routerLink="/share"><div>Share</div></a></li>
+            <li routerLinkActive="active" (click)="onMenuItemClick($event)"><a routerLink="/buy"><div>Buy</div></a></li>
+            <li routerLinkActive="active" (click)="onMenuItemClick($event)"><a routerLink="/search"><div>Search</div></a></li>
+            <li routerLinkActive="active" (click)="onMenuItemClick($event)"><a routerLink="/create-account"><div>Profile</div></a></li>
         </ul>
     </div>
 </nav>
